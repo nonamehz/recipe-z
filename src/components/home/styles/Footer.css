@@ -1,0 +1,8 @@
+.footer-wrapper {
+    padding: 20px;
+    border-top: 2px solid var(--blue-dark);
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}

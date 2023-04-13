@@ -1,0 +1,42 @@
+.item-bg {
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (min-width: 768px) {
+
+    .item-concept {
+        grid-column: 1 / span 3;
+        grid-row: 1 / 3;
+    }
+
+    .item-korean {
+        grid-column: 4 / 8;
+        grid-row: 1 / 2;
+    }
+
+    .item-italian {
+        grid-column: 8 / 12;
+        grid-row: 1 / 2;
+    }
+
+    .item-french {
+        grid-column: 4 / 12;
+    }
+
+    .item-british {
+        grid-column: 1 / span 5;
+    }
+
+    .item-japanese {
+        grid-column: 6 / 12;
+    }
+
+    .item-more-cuisine {
+        justify-self: self-start;
+        grid-column: 1 / span 7;
+    }
+
+
+}
