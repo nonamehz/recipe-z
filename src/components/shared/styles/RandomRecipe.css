@@ -27,15 +27,18 @@
     gap: 30px;
     height: 100%;
     justify-content: center;
+    left: 0;
     position: absolute;
+    right: 0;
     text-align: center;
+    top: 0;
     width: 100%;
     z-index: 1;
 }
 
 .random-full {
-    width: 100%;
     height: 50vh;
+    width: 100%;
 }
 
 .random-recipe h3 {
@@ -73,6 +76,6 @@
 }
 
 .random-button span {
-    width: 25px;
     height: 25px;
+    width: 25px;
 }

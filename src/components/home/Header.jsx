@@ -17,7 +17,7 @@ export const Header = () => {
                 <img src={Logo} alt="Logo Recipe Z" />
             </Link>
             <div className="nav-wrapper">
-                <span>Recipe-Z</span>
+                <Link to="/"><span>Recipe-Z</span></Link>
                 <nav className="nav">
                     <NavLinks onClick={() => setOpenMenu(false)} />
                 </nav>

@@ -34,8 +34,8 @@
     }
 
     .item-more-cuisine {
-        justify-self: self-start;
         grid-column: 1 / span 7;
+        justify-self: self-start;
     }
 
 

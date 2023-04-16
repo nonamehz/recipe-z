@@ -11,11 +11,11 @@ export const SearchPage = () => {
 
     useEffect(() => {
         fetchAPI(`/recipes/complexSearch?query=${searchTerm}&number=50`)
-            .then(data => setRecipes(data.results))
+            .then(data => {
+                setRecipes(data.results);
+            })
             .catch(console.log)
     }, [searchTerm]);
-
-    if (!recipes.length) return <Loader />
 
     return (
         <>

@@ -12,9 +12,9 @@
 }
 
 .detail-ingredients {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 30px;
 }
 
@@ -30,11 +30,11 @@
 }
 
 .item-step {
-    text-align: center;
     flex-direction: column;
-    place-content: center;
     gap: 10px;
     padding: 50px;
+    place-content: center;
+    text-align: center;
 }
 
 @media (min-width: 1200px) {
@@ -59,9 +59,9 @@
 }
 
 .item-image>img {
-    width: 100%;
     height: 100%;
     object-fit: cover;
+    width: 100%;
 }
 
 .item>ul {

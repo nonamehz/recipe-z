@@ -10,14 +10,14 @@
 }
 
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-family: 'Hind Madurai', system-ui;
     color: var(--blue-dark);
+    font-family: 'Hind Madurai', system-ui;
 }
 
 h1,
@@ -29,8 +29,8 @@ h3 {
 button {
     background: none;
     border: none;
-    cursor: pointer;
     color: var(--blue-dark);
+    cursor: pointer;
 }
 
 input {
@@ -39,13 +39,13 @@ input {
 }
 
 a {
-    text-decoration: none;
     color: var(--blue-dark);
+    text-decoration: none;
 }
 
 .container {
-    max-width: 90%;
     margin: 0 auto;
+    max-width: 90%;
 }
 
 @media (min-width: 1024px) {
@@ -55,10 +55,10 @@ a {
 }
 
 .app-title {
+    display: none;
+    font-size: 4rem;
     margin: 30px 0;
     text-align: center;
-    font-size: 4rem;
-    display: none;
 }
 
 @media (min-width: 768px) {
@@ -72,8 +72,8 @@ a {
 }
 
 .button-icon {
-    width: 35px;
     height: 35px;
+    width: 35px;
 }
 
 .button-icon>img {
@@ -105,16 +105,16 @@ a {
 }
 
 .button-random {
-    text-transform: uppercase;
-    font-family: 'Montserrat', system-ui;
-    padding: 20px;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    font-size: 14px;
-    font-weight: bold;
     background: var(--blue-light);
     color: #FFFFFF;
+    font-family: 'Montserrat', system-ui;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px;
+    text-transform: uppercase;
+    width: 100%;
 }
 
 /* Grid Items */
@@ -134,11 +134,11 @@ a {
 }
 
 .grid-items {
-    margin: 20px 0 30px 0;
-    width: 100%;
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr;
+    margin: 20px 0 30px 0;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -149,19 +149,19 @@ a {
 }
 
 .item {
+    border-bottom: 10px solid black;
     border-left: 3px solid #000000;
+    border-radius: 20px;
     border-right: 3px solid #000000;
     border-top: 3px solid #000000;
-    border-bottom: 10px solid black;
-    border-radius: 20px;
     display: flex;
-    width: 100%;
     overflow: hidden;
+    width: 100%;
 }
 
 .item-concept {
-    cursor: default;
     align-items: center;
+    cursor: default;
     flex-direction: column;
     gap: 20px;
     height: 300px;
@@ -178,8 +178,8 @@ a {
 }
 
 .item-main {
-    text-align: center;
     height: 100px;
+    text-align: center;
     text-transform: capitalize;
 }
 
@@ -190,17 +190,17 @@ a {
 }
 
 .item-main-l {
-    position: relative;
-    font-size: 1.5rem;
-    font-weight: bold;
-    width: 100%;
-    color: #FFFFFF;
-    display: flex;
     align-items: center;
-    justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: center;
+    position: relative;
+    width: 100%;
     z-index: 10;
 }
 
@@ -215,12 +215,12 @@ a {
 
 
 .item-more {
+    align-items: center;
     font-size: 1.5rem;
     font-weight: bold;
-    align-items: center;
+    height: 100px;
     justify-content: center;
     width: 50%;
-    height: 100px;
 }
 
 @media (min-width: 768px) {
@@ -230,22 +230,22 @@ a {
 }
 
 .pills-wrapper {
-    justify-content: center;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
     margin-bottom: 30px;
 }
 
 .pill {
-    width: auto;
-    padding: 0 20px;
-    height: 50px;
+    cursor: pointer;
     display: grid;
+    height: 50px;
+    padding: 0 20px;
     place-content: center;
     text-transform: uppercase;
-    cursor: pointer;
+    width: auto;
 }
 
 .pill-selected {
@@ -256,25 +256,25 @@ a {
 
 /* Loader */
 .loader-wrapper {
-    width: 100%;
-    height: 100vh;
     display: grid;
+    height: 100vh;
     place-content: center;
+    width: 100%;
 }
 
 .sk-cube-grid {
-    width: 40px;
     height: 40px;
     margin: 100px auto;
+    width: 40px;
 }
 
 .sk-cube-grid .sk-cube {
-    width: 33%;
-    height: 33%;
-    background-color: #333;
-    float: left;
     -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
     animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+    background-color: #333;
+    float: left;
+    height: 33%;
+    width: 33%;
 }
 
 .sk-cube-grid .sk-cube1 {

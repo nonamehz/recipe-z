@@ -4,12 +4,12 @@
 }
 
 .form-input {
-    width: 100%;
-    color: var(--blue-dark);
-    padding: 10px 0 10px 30px;
-    padding-right: 45px;
-    border: 2px solid var(--blue-dark);
     border-radius: 50px;
+    border: 2px solid var(--blue-dark);
+    color: var(--blue-dark);
+    padding-right: 45px;
+    padding: 10px 0 10px 30px;
+    width: 100%;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
@@ -18,17 +18,17 @@
 
 @media (min-width: 768px) {
     .form-input {
-        padding: 20px 0 20px 30px;
         font-size: 1rem;
+        padding: 20px 0 20px 30px;
     }
 }
 
 .form-button {
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    height: 100%;
+    padding-right: 15px;
     position: absolute;
     right: 0;
-    padding-right: 15px;
     width: 40px;
-    height: 100%;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
 }

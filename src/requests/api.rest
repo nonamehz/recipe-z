@@ -1,9 +1,0 @@
-@apiKey=1bc019ae7a6145208836bb8935b46c7c
-@url=https://api.spoonacular.com/recipes
-###
-GET {{url}}/random/?apiKey={{apiKey}}
-
-###
-GET {{url}}/complexSearch?apiKey={{apiKey}}&type=main%20course
-###Cauliflower, Brown Rice, and Vegetable Fried Rice
-GET {{url}}/716426/information?apiKey={{apiKey}}
