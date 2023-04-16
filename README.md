@@ -1,17 +1,11 @@
 # ![Recipe-Z](https://imgur.com/5Mq5OmZ.png)
 
 # Recipe-Z
-<table>
-<tr>
-<td>
-App de Recetas con React JS
-</td>
-</tr>
-</table>
 
+App de Recetas con React JS
 
 ## Demo
-Aquí una pueden visitar el sitio web desplegado en Netlify: https://recipe-z.netlify.app/
+Aquí pueden visitar el sitio web desplegado en Netlify: https://recipe-z.netlify.app/
 
 ## Creado con
 
