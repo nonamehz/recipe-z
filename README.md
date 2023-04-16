@@ -5,7 +5,7 @@
 App de Recetas con React JS
 
 ## Demo
-Aquí pueden visitar el sitio web desplegado en Netlify: https://recipe-z.netlify.app/
+Aquí pueden visitar el sitio web desplegado en Netlify: https://recipe-z.netlify.app
 
 ## Creado con
 
